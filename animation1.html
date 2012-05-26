@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Anto Tuts</title>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <script src="jquery-1.7.2.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#button1").click(function(){
+                $("#box").show(5000,function(){
+                    alert("show finished");
+                    });    
+            });
+            $("#button2").click(function(){
+                $("#box").hide("slow",function(){
+                    alert("Hide finished");
+                    });    
+            });
+            $("#button3").click(function(){
+                $("#box").toggle("slow");    
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="main">
+        <div id="box" class="cool">
+           
+        </div>
+        <button id="button1">show</button>
+        <button id="button2">Hide</button>
+        <button id="button3">Toogle</button>
+        
+    </div>
+</html>

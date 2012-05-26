@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Anto Tuts</title>
+     <script src="jquery-1.7.2.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function(){
+            var px=5;
+           // $("#main").find("li#list1").css("border","3px solid red");
+           $("p").each(function(){
+                $(this).css("border",px+"px solid red");
+                px +=10;
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="main">
+        <p id="para1">para1</p>
+        <p id="para2">para2</p>
+        <p id="para3">para3</p>
+        <p id="para4">para4</p>
+        <ul>
+            <li id="list1"><a href="#">list1</a></li>
+            <li id="list2"><a href="#">list2</a></li>
+            <li id="list3"><a href="#">list3</a></li>
+            <li id="list4"><a href="#">list4</a></li>
+        </ul>
+        <p class="class1">class1</p>
+        <p class="class1">class2</p>
+        <p class="class2">class3</p>
+        <p class="class2">class4</p>
+    </div>
+</body>
+</html>

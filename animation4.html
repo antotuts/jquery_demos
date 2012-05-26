@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Anto Tuts</title>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+    <script src="jquery-1.7.2.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#button1").click(function(){
+                $("#box").animate({"width":"80%","height":"800px","opacity":".5"},2000,"swing");    
+            });
+            $("#button2").click(function(){
+              $("#box").animate({"width":"400px","height":"400px"},2000,"linear");       
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="main">
+        <div id="box" class="cool">
+           
+        </div>
+        <button id="button1">Animate</button>
+        <button id="button2">Back</button>
+                
+    </div>
+</html>

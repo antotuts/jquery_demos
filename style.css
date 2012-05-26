@@ -1,0 +1,29 @@
+.redback{
+    float: left;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    background-color: red;
+    border: 3px solid blue;
+}
+
+.cool{
+    float: left;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    background-color: grey;
+    border: 3px solid blue;
+}
+
+.blueback{
+    float: left;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    background-color: blue;
+    border: 3px solid blue;
+}
+#main {
+    width: 100%;
+}

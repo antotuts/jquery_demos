@@ -1,0 +1,17 @@
+$("#button1").bind("click",toggleit);
+            $("#button2").click(toggleit);
+            
+            $("#button3").toggle(toggle1,toggle2);
+            $("#button4").one("click",toggleit);
+            $("#button5").click(function(e){
+                $("#box").html("<h1>Type:"+e.type+"  Pagex:"+e.pageX+"</h1>");
+            });
+            function toggleit(){
+                $("#box").toggleClass("blueback");
+            }
+            function toggle1(){
+                $("#box").html("<h1>toggle1</h1>");
+            }
+            function toggle2(){
+                $("#box").html("<h1>toggle2</h1>");
+            }

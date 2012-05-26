@@ -1,0 +1,73 @@
+/* CSS Document */
+
+body{ 
+	background-color:#333;
+	font-size:16px; 
+	margin:0; 
+	padding:0; 
+}
+
+#header{ 
+	background-color:#333;
+	height:150px;
+	font-size: 60px;
+	color: #FFF;
+}
+
+#menu {
+	font-family: Bitter, serif;
+	height: 60px;
+	border-top: solid 1px #FFDF69;
+	border-bottom: solid 1px #DD9923;
+	width: 100%;
+	background: #E7A32D repeat-x top left;
+	line-height: 60px;
+	color: #FFF;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 0px 1px 2px rgba(0,0,0,0.6);
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#menu li {
+	position: relative;
+	display: inline-block;
+	height: 60px;
+	padding: 1px 25px 0 25px;
+}
+#menu a{
+        width: 60px;
+        padding:25px;
+}
+
+#menu ul li a {
+        width: 40px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#content { 
+	width:750px;
+	min-height:450px; 
+	height:auto; 
+	height:450px; 
+	background-color:#fff;
+	margin:0 auto;
+	margin-top:2px;
+}
+
+#footer { 
+	clear:both;
+	background-color:#333;
+	height:100px;
+}
+
+
